@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hewan Favoritku</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🦁 Hewan Favoritku</h1>
+    
+    <input type="text" id="namaInput" placeholder="Ketik namamu..." />
+    <button onclick="sapaPengguna()">Sapa Aku!</button>
+    <p id="sapaan"></p>
+
+    <div class="card">
+      <img id="gambarHewan" src="image/singa.JPG" alt="hewan" />
+      <p id="deskripsiHewan">Ini adalah singa, raja hutan.</p>
+      <button onclick="gantiHewan()">Ganti Hewan</button>
+    </div>
+
+    <button onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
